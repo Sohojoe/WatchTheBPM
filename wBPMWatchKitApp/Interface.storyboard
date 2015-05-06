@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="BPMController" customModuleProvider="" identifier="bPMController">
+                    <items>
+                        <group width="1" alignment="left" id="6">
+                            <items>
+                                <label alignment="left" text="125" id="4" textAlignment="left" width="73" height="49">
+                                    <fontDescription key="font" type="boldSystem" pointSize="41"/>
+                                </label>
+                                <label alignment="right" text="BPM" id="3" verticalAlignment="center" textAlignment="right">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                            </items>
+                            <constraints>
+                                <constraint firstItem="4" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" constant="0.0" id="10"/>
+                            </constraints>
+                        </group>
+                        <separator alignment="left" id="5">
+                            <color key="color" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="0.23921568627450981"/>
+                        </separator>
+                        <button alignment="center" title="TAP!" id="0" height="98" verticalAlignment="bottom" width="1">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <connections>
+                                <action selector="OnButtonPress:" destination="AgC-eL-Hgc" id="13"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="tapButton" destination="0" id="name-outlet-0"/>
+                        <outlet property="bpmOutputLabel" destination="4" id="name-outlet-4"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-4" y="30"/>
+        </scene>
+        <!--Glance Interface Controller-->
+    </scenes>
+    <resources>
+        <image name="disco-ball.png" width="1024" height="1024"/>
+    </resources>
+</document>
