@@ -2,12 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDisplayName</key>
-	<string>wBPM</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.vidyagamer.wbpm</string>
+	<string>com.vidyagamer.wBPM</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.0</string>
+	<string>0.1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -34,5 +32,7 @@
 	<string>1238</string>
 	<key>XSLaunchImageAssets</key>
 	<string>Resources/Images.xcassets/LaunchImage.launchimage</string>
+	<key>CFBundleDisplayName</key>
+	<string>WatchBPM</string>
 </dict>
 </plist>

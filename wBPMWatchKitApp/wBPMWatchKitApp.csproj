@@ -91,4 +91,9 @@
     <InterfaceDefinition Include="Interface.storyboard" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.WatchApp.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Resources\tap.png" />
+    <BundleResource Include="Resources\tap%402x.png" />
+    <BundleResource Include="Resources\tap%403x.png" />
+  </ItemGroup>
 </Project>
