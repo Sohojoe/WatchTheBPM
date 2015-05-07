@@ -14,8 +14,6 @@
 	<array>
 		<integer>1</integer>
 	</array>
-	<key>UILaunchStoryboardName</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -27,11 +25,9 @@
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>BPM</string>
 	<key>CFBundleVersion</key>
 	<string>1238</string>
-	<key>XSLaunchImageAssets</key>
-	<string>Resources/Images.xcassets/LaunchImage.launchimage</string>
 	<key>CFBundleDisplayName</key>
 	<string>WatchBPM</string>
 </dict>

@@ -28,7 +28,7 @@
                             <color key="color" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="0.23921568627450981"/>
                         </separator>
                         <button alignment="center" title="TAP!" id="0" height="98" verticalAlignment="bottom" width="1">
-                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
                             <connections>
                                 <action selector="OnButtonPress:" destination="AgC-eL-Hgc" id="13"/>
                             </connections>
